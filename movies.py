@@ -36,7 +36,7 @@ movie_data = {
         # Elseworlds (Outros universos)
         "Justice League": "3cxixDgHUYw",
         "The Batman": "mqqft2x_Aa4",
-        "Joker: Folie à Deux": "xy8aJw1vYHo",
+        "Joker: Folie a Deux": "xy8aJw1vYHo",
         
         # DCU (Novo Universo James Gunn)
         "Superman (2025)": "Ox8ZLF6cGM0" # Teaser/First Look (se houver, caso contrário remover)
