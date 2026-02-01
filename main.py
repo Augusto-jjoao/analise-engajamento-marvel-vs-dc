@@ -31,7 +31,11 @@ def rotate_key():
     global CURRENT_KEY_INDEX
     CURRENT_KEY_INDEX += 1
     if CURRENT_KEY_INDEX >= len(API_KEYS):
+<<<<<<< HEAD
         print("Todas as chaves API foram esgotadas,")
+=======
+        print("!!! CRÍTICO: Todas as chaves API foram esgotadas !!!")
+>>>>>>> 4159c885078ad451710417403037900a182a7431
         return False
     print(f"Trocando para a chave API numero: {CURRENT_KEY_INDEX + 1}")
     return True
@@ -67,7 +71,11 @@ def get_comments_safe(video_id, max_results=100000):
                 break
                 
             if len(comments_data) % 1000 == 0:
+<<<<<<< HEAD
                 print(f"   ...Coletados {len(comments_data)} comentarios...")
+=======
+                print(f"   ...Coletados {len(comments_data)} comentários...")
+>>>>>>> 4159c885078ad451710417403037900a182a7431
 
         except HttpError as e:
             if e.resp.status == 403 and "quotaExceeded" in str(e):
@@ -88,7 +96,11 @@ def get_comments_safe(video_id, max_results=100000):
 
 # --- NOVA EXECUÇÃO PRINCIPAL (SEPARANDO ARQUIVOS) ---
 def main():
+<<<<<<< HEAD
     print("--- INICIANDO COLETA (ARQUIVOS SEPARADOS POR ESTUDIO) ---")
+=======
+    print("--- INICIANDO COLETA (ARQUIVOS SEPARADOS POR ESTÚDIO) ---")
+>>>>>>> 4159c885078ad451710417403037900a182a7431
 
     # Loop pelas franquias (Marvel, DC)
     for franchise, movies_dict in movies.movie_data.items():
