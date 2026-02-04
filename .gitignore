@@ -1,1 +1,13 @@
-.env
+# Ignorar ambientes virtuais
+venv/
+__pycache__/
+
+# Ignorar dados brutos gigantes
+*.json
+
+# Ignorar os modelos pesados da IA
+modelo_marvel_final/
+modelo_dc_final/
+
+# Ignorar arquivos do sistema
+.DS_Store
