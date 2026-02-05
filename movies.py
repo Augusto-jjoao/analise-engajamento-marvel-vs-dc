@@ -39,7 +39,7 @@ movie_data = {
         "Joker: Folie a Deux": "xy8aJw1vYHo",
         
         # DCU (Novo Universo James Gunn)
-        "Superman (2025)": "Ox8ZLF6cGM0" # Teaser/First Look (se houver, caso contrário remover)
+        "Superman (2025)": "Ox8ZLF6cGM0" # Teaser/First Look
     }
 }
 
